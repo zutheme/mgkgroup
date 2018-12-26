@@ -166,17 +166,53 @@
 							<!-- Main Nav Menu -->
 
 							<div class="main_nav_menu ml-auto">
-								 <?php
-						                wp_nav_menu( array(
-						                    'theme_location' => 'menu-1',
-						                    // 'menu'       => 'menu-1',
-						                    'depth'      => 2,
-						                    'container'  => false,
-						                    'menu_class' => 'standard_dropdown main_nav_dropdown',
-						                    'walker'     => new wp_bootstrap_navwalker())
-						                );
-						              ?>   
-								
+								<ul class="standard_dropdown main_nav_dropdown">
+									<!-- <li><a href="#">Giới thiệu<i class="fas fa-chevron-down"></i></a></li> -->
+									<li class="hassubs">
+										<a href="#">Giới thiệu<i class="fas fa-chevron-down"></i></a>
+										<ul>
+											<li>
+												<a href="#">Tầm nhìn<i class="fas fa-chevron-down"></i></a>
+												<ul>
+													<li><a href="#">Sứ mệnh<i class="fas fa-chevron-down"></i></a></li>
+													<li><a href="#">Giá trị cốt lõi<i class="fas fa-chevron-down"></i></a></li>
+													<li><a href="#">Lịch sử hình thành<i class="fas fa-chevron-down"></i></a></li>
+												</ul>
+											</li>
+											<li><a href="#">Sứ mệnh<i class="fas fa-chevron-down"></i></a></li>
+											<li><a href="#">Giá trị cốt lõi<i class="fas fa-chevron-down"></i></a></li>
+											<!-- <li><a href="#">Lịch sử hình thành<i class="fas fa-chevron-down"></i></a></li> -->
+										</ul>
+									</li>
+									<li class="hassubs">
+										<a href="#">Lĩnh vực hoạt động<i class="fas fa-chevron-down"></i></a>
+										<ul>
+											<li>
+												<a href="#">Viện thẩm mỹ<i class="fas fa-chevron-down"></i></a>
+												<ul>
+													<li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
+													<li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
+													<li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
+												</ul>
+											</li>
+											<li><a href="#">Đào tạo thẩm mỹ<i class="fas fa-chevron-down"></i></a></li>
+											<li><a href="#">Hệ thống Spa<i class="fas fa-chevron-down"></i></a></li>
+											<li><a href="#">Tư vấn Setup Spa<i class="fas fa-chevron-down"></i></a></li>
+										</ul>
+									</li>
+									
+									<li class="hassubs">
+										<a href="#">Tin tức & sự kiện<i class="fas fa-chevron-down"></i></a>
+										<ul>
+											<li><a href="shop.html">Tin tức<i class="fas fa-chevron-down"></i></a></li>
+											<li><a href="product.html">Tuyển dụng<i class="fas fa-chevron-down"></i></a></li>
+										</ul>
+									</li>
+									
+									<li><a href="contact.html">Nội bộ<i class="fas fa-chevron-down"></i></a></li>
+									<li><a href="#">Liên hệ<i class="fas fa-chevron-down"></i></a></li>
+										
+								</ul>
 							</div>
 
 							<!-- Menu Trigger -->
