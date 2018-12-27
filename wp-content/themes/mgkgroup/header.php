@@ -22,14 +22,14 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/plugins/OwlCarousel2-2.2.1/animate.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/plugins/slick-1.8.0/slick.css">
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/main_styles.css?v=0.0.4">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/main_styles.css?v=0.0.6">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/responsive.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_single_styles.css?v=0.0.1">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_single_responsive.css?v=0.0.1">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/style-custom.css?v=0.0.7">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_styles.css?v=0.0.1">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_responsive.css">
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/contact_styles.css?v=0.0.2">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/contact_styles.css?v=0.0.3">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/contact_responsive.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<?php wp_head(); ?>
