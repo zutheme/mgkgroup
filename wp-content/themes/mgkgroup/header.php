@@ -27,7 +27,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_single_styles.css?v=0.0.1">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_single_responsive.css?v=0.0.1">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/style-custom.css?v=0.0.7">
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_styles.css">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_styles.css?v=0.0.1">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_responsive.css">
 	<?php wp_head(); ?>
 </head>
