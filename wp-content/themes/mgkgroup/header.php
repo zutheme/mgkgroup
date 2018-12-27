@@ -22,13 +22,16 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/plugins/OwlCarousel2-2.2.1/animate.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/plugins/slick-1.8.0/slick.css">
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/main_styles.css?v=0.0.3">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/main_styles.css?v=0.0.4">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/responsive.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_single_styles.css?v=0.0.1">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_single_responsive.css?v=0.0.1">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/style-custom.css?v=0.0.7">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_styles.css?v=0.0.1">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_responsive.css">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/contact_styles.css?v=0.0.2">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/contact_responsive.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -80,7 +83,7 @@
 					<!-- Logo -->
 					<div class="col-lg-2 col-sm-3 col-3 order-1">
 						<div class="logo_container">
-							<div class="logo"><a href="#"><img src="<?php bloginfo('template_directory');?>/images/Logo_MGK.png" width="100%"></a></div>
+							<div class="logo"><a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php bloginfo('template_directory');?>/images/Logo_MGK.png" width="100%"></a></div>
 						</div>
 					</div>
 
@@ -115,11 +118,10 @@
 					<div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
 						<div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
 							<div class="wishlist d-flex flex-row align-items-center justify-content-end">
-								<!-- <div class="wishlist_icon"><i class="fa fa-map-marker" aria-hidden="true"></i><img src="<?php //bloginfo('template_directory');?>/images/heart.png" alt=""></div> -->
-								<div class="wishlist_icon"><a href="#"><i class="fa fa-map-marker" style="font-size:24px"></i></a></div>
+								<div class="wishlist_icon"><img src="<?php bloginfo('template_directory');?>/images/heart.png" alt=""></div> 
 								<div class="wishlist_content">
-									<div class="wishlist_text"><a href="#">Wishlist</a></div>
-									<div class="wishlist_count">115</div>
+									<div class="wishlist_text"><a href="#">Bản đồ</a></div>
+									<div class="wishlist_count"></div>
 								</div>
 							</div>
 
@@ -128,10 +130,10 @@
 								<div class="cart_container d-flex flex-row align-items-center justify-content-end">
 									<div class="cart_icon">
 										<img src="<?php bloginfo('template_directory');?>/images/cart.png" alt="">
-										<div class="cart_count"><span>10</span></div>
+										<div class="cart_count"><span></span></div>
 									</div>
 									<div class="cart_content">
-										<div class="cart_text"><a href="#">Cart</a></div>
+										<div class="cart_text"><a href="#">Sơ đồ</a></div>
 										<div class="cart_price"></div>
 									</div>
 								</div>
