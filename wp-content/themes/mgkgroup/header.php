@@ -168,8 +168,8 @@
 							<div class="main_nav_menu ml-auto">
 								 <?php
 						                wp_nav_menu( array(
-						                    'theme_location' => 'menu-1',
-						                    // 'menu'       => 'menu-1',
+						                    //'theme_location' => 'menu-1',
+						                    'menu'       => 'menu-1',
 						                    'depth'      => 2,
 						                    'container'  => false,
 						                    'menu_class' => 'standard_dropdown main_nav_dropdown',
