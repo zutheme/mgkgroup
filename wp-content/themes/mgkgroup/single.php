@@ -9,29 +9,29 @@
 
 get_header();
 ?>
+<!-- Home -->
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+	<div class="home">
+		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_attr( get_option('images_banner1') ); ?>" data-speed="0.8"></div>
+	</div>
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+	<!-- Single Blog Post -->
 
-			get_template_part( 'template-parts/content', get_post_type() );
-
-			the_post_navigation();
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
+	<div class="single_post">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<?php
+	        			while ( have_posts() ) :
+	        				the_post();
+	        				get_template_part( 'template-parts/content', get_post_type() );
+	        			endwhile;
+	        			?>
+				</div>
+			</div>
+		</div>
+	</div>
+	<?php get_template_part('template-parts/relative'); 
+		  get_template_part('template-parts/newletter'); ?>
 <?php
-get_sidebar();
 get_footer();

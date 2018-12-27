@@ -124,7 +124,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="<?php bloginfo('template_directory');?>/plugins/slick-1.8.0/slick.js"></script>
 <script src="<?php bloginfo('template_directory');?>/plugins/easing/easing.js"></script>
 <script src="<?php bloginfo('template_directory');?>/js/custom.js"></script>
-
+<script src="<?php bloginfo('template_directory');?>/js/blog_single_custom.js"></script>
+<script src="<?php bloginfo('template_directory');?>/plugins/parallax-js-master/parallax.min.js"></script>
 <?php wp_footer(); ?>
 
 </body>

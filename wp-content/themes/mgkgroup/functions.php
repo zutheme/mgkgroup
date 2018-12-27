@@ -151,15 +151,15 @@ require get_template_directory() . '/inc/template-functions.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
-
+require get_template_directory() . '/inc/get_curent_cat.php';
 /**
  * Load Jetpack compatibility file.
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-
 require_once ( dirname( __FILE__ ) . '/wp-bootstrap-navwalker.php') ;
+
 //require_once ( dirname( __FILE__ ) . '/wpdocs_walker_nav_menu.php') ;
 //require_once ( dirname( __FILE__ ) . '/wpdocs_walker_nav_lists.php') ;
 //require_once ( dirname( __FILE__ ) . '/wpdocs_walker_nav_list.php') ;
