@@ -57,11 +57,11 @@
 
 								<div class="review d-flex flex-row align-items-start justify-content-start">
 
-									<div><div class="review_image"><img src="<?php echo $_src; ?>" alt=""></div></div>
+									<div><div class="review_image"><a href="<?php the_permalink(); ?>"><img src="<?php echo $_src; ?>" alt=""></a></div></div>
 
 									<div class="review_content">
 
-										<div class="review_name"><?php the_title(); ?></div>
+										<div class="review_name"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
 
 										<div class="review_rating_container">
 

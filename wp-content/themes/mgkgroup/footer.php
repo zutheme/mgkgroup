@@ -21,7 +21,7 @@
 						<div class="logo_container">
 							<div class="logo"><a  href="#"><img class="logo-footer" src="<?php bloginfo('template_directory');?>/images/Logo_MGK.png"></a></div>
 						</div>
-						<div class="footer_title">Giải đáp, tư vấn 27/7</div>
+						<div class="footer_title">Giải đáp, tư vấn 24/7</div>
 						<div class="footer_phone"><a href="tel:19001768">Hãy gọi 1900 1768</a></div>
 						<div class="footer_contact_text">
 							<p>Số 7,Trần Quan Diệu, Phường 14</p>
@@ -46,13 +46,10 @@
 							<li><a href="#">Thẩm mỹ viện</a></li>
 							<li><a href="#">Đào tạo</a></li>
 							<li><a href="#">hệ thống SPA</a></li>
-							<li><a href="#"></a></li>
+							<li><a href="#">Tư vấn setup SPA</a></li>
 							<li><a href="#"></a></li>
 						</ul>
-						<div class="footer_subtitle">Gadgets</div>
-						<ul class="footer_list">
-							<li><a href="#">Car Electronics</a></li>
-						</ul>
+						
 					</div>
 				</div>
 
@@ -63,7 +60,7 @@
 							<li><a href="#">Sứ mệnh</a></li>
 							<li><a href="#">Giá trị cốt lõi</a></li>
 							<li><a href="#">Lịch sự thành lập</a></li>
-							<li><a href="#">Computers & Laptops</a></li>
+							
 						</ul>
 					</div>
 				</div>
@@ -76,9 +73,6 @@
 							<li><a href="#">Order Tracking</a></li>
 							<li><a href="#">Wish List</a></li>
 							<li><a href="#">Customer Services</a></li>
-							<li><a href="#">Returns / Exchange</a></li>
-							<li><a href="#">FAQs</a></li>
-							<li><a href="#">Product Support</a></li>
 						</ul>
 					</div>
 				</div>
