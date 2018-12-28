@@ -84,7 +84,7 @@
     function initMap() {
         // alert("MAP OK");
         map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: 10.834663, lng: 106.664146},
+            center: {lat: 10.788554, lng: 106.678137},
             zoom: 16,
             zoomControl: false,
             fullscreenControl: false,
@@ -250,15 +250,15 @@
                 }
             ]
         });
-        var icon_url = 'https://drfitness.vn/wp-content/themes/drfitness/assets/frontend/images/LOCATION-LIEN-HE.png';
+        var icon_url = 'http://www.mgkgroup.vn/wp-content/uploads/2018/12/point.png';
         var drFitnessMarker = new google.maps.Marker({
-            position: {lat: 10.788449, lng: 106.678151},
+            position: {lat: 10.788554, lng: 106.678137},
             map: map,
             icon: icon_url
         });
     }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQolHpj71YjUhun87OSA1fRUgcYducl5Q&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBfouDZwHMOTYy3-n1SHx-Tsbf76ApfX0&callback=initMap" async defer></script><div class="clearfix"></div>
    
     <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQolHpj71YjUhun87OSA1fRUgcYducl5Q&callback=initMap"
     async defer></script>
