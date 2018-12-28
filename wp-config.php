@@ -42,19 +42,19 @@
 
 /** The name of the database for WordPress */
 
-define('DB_NAME', 'admgkgroup_mysql');
+define('DB_NAME', 'datamgkgroup');
 
 
 
 /** MySQL database username */
 
-define('DB_USER', 'admgkgroup_user');
+define('DB_USER', 'root');
 
 
 
 /** MySQL database password */
 
-define('DB_PASSWORD', 'tmvthienkhue@2018');
+define('DB_PASSWORD', '');
 
 
 

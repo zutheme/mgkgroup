@@ -175,3 +175,24 @@ add_filter( 'get_the_archive_title', function ($title) {
  
     return $title;
 });
+
+function the_excerpt_max_charlength($charlength) {
+	$excerpt = get_the_content();
+	 $cleanText = filter_var($excerpt, FILTER_SANITIZE_STRING);
+    $introCleanText = strip_tags($cleanText);
+	$charlength++;
+
+	if ( mb_strlen( $introCleanText ) > $charlength ) {
+		$subex = mb_substr( $introCleanText, 0, $charlength - 5 );
+		$exwords = explode( ' ', $subex );
+		$excut = - ( mb_strlen( $exwords[ count( $exwords ) - 1 ] ) );
+		if ( $excut < 0 ) {
+			echo mb_substr( $subex, 0, $excut );
+		} else {
+			echo $subex;
+		}
+		echo '...';
+	} else {
+		echo $introCleanText;
+	}
+}
