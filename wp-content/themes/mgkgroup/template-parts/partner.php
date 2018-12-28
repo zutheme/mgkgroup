@@ -36,10 +36,7 @@
 
 							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img class="partner" src="<?php bloginfo('template_directory');?>/images/caodangyduoc.png" alt=""></div></div>
 
-							<div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center"><img class="partner" src="<?php bloginfo('template_directory');?>/images/brands_8.jpg" alt=""></div></div>
-
-
-
+						
 						</div>
 
 						
