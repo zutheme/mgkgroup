@@ -32,6 +32,20 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/contact_styles.css?v=0.0.3">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/contact_responsive.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+      	width: 100%;
+        height: 500px;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
