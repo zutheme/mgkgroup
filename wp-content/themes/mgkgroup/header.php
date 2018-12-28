@@ -132,9 +132,9 @@
 					<div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
 						<div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
 							<div class="wishlist d-flex flex-row align-items-center justify-content-end">
-								<div class="wishlist_icon"><img src="<?php bloginfo('template_directory');?>/images/heart.png" alt=""></div> 
+								<div class="wishlist_icon"><a href="<?php echo esc_url(home_url('/')); ?>lien-he?link=#map"><img src="<?php bloginfo('template_directory');?>/images/heart.png" alt=""></a></div> 
 								<div class="wishlist_content">
-									<div class="wishlist_text"><a href="#">Bản đồ</a></div>
+									<div class="wishlist_text"><a href="<?php echo esc_url(home_url('/')); ?>lien-he?link=#map">Bản đồ</a></div>
 									<div class="wishlist_count"></div>
 								</div>
 							</div>

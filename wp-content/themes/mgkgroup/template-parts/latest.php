@@ -71,7 +71,7 @@
 
 										</div>
 
-										<div class="review_text"><p><?php //the_excerpt_max_charlength(185); ?></p></div>
+										<div class="review_text"><p><?php the_excerpt_max_charlength(50); ?></p></div>
 
 									</div>
 

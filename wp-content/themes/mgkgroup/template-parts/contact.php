@@ -1,5 +1,11 @@
 <!-- Contact Info -->
-
+<?php
+if (isset($_GET['link'])) {
+    //$link = $_GET['link'];
+    //echo "<script>alert(".$link.");</scrip>";
+} else {
+    // Fallback behaviour goes here
+}?>
 	<div class="contact_info">
 		<div class="container">
 			<div class="row">
