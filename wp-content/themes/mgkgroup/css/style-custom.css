@@ -29,3 +29,7 @@
     	padding-top: 195px;
 	}
 }
+.popular_categories .popular_category_text a {
+	font-size: 13px;
+	font-weight: 300;
+}

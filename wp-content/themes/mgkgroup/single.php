@@ -8,9 +8,8 @@
  */
 get_header();
 ?>
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_single_styles.css?v=0.0.2">
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_single_responsive.css?v=0.0.1">
 <!-- Home -->
+
 	<div class="home">
 		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="<?php echo esc_attr( get_option('images_banner1') ); ?>" data-speed="0.8"></div>
 	</div>
@@ -35,4 +34,3 @@ get_header();
 		  get_template_part('template-parts/newletter'); ?>
 <?php
 get_footer();
-?>

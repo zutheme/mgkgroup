@@ -50,7 +50,7 @@
 
 
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
+
 
 
 
@@ -82,7 +82,7 @@ body
 
 {
 
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 
 	font-size: 14px;
 
@@ -124,7 +124,7 @@ p
 
 {
 
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 
 	font-size: 14px;
 
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6
 
 {
 
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 
 	font-weight: 500;
 

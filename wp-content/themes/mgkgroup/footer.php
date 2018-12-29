@@ -105,6 +105,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</div>
 		</div>
 	</div>
+<?php 
+$page_slug = home_url('/')."lien-he/";
+$rt = get_page_title_for_slug($page_slug);
+echo $rt;
+?>
 <script src="<?php bloginfo('template_directory');?>/js/jquery-3.3.1.min.js"></script>
 <script src="<?php bloginfo('template_directory');?>/styles/bootstrap4/popper.js"></script>
 <script src="<?php bloginfo('template_directory');?>/styles/bootstrap4/bootstrap.min.js"></script>
@@ -114,26 +119,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="<?php bloginfo('template_directory');?>/plugins/greensock/animation.gsap.min.js"></script>
 <script src="<?php bloginfo('template_directory');?>/plugins/greensock/ScrollToPlugin.min.js"></script>
 <script src="<?php bloginfo('template_directory');?>/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="<?php bloginfo('template_directory');?>/plugins/slick-1.8.0/slick.js"></script>
-<script src="<?php bloginfo('template_directory');?>/plugins/easing/easing.js"></script>
-<script src="<?php bloginfo('template_directory');?>/js/custom.js"></script>
 
-<!-- <script src="<?php //bloginfo('template_directory');?>/js/blog_single_custom.js"></script>
-<script src="<?php //bloginfo('template_directory');?>/plugins/parallax-js-master/parallax.min.js"></script> -->
-<?php 
-//if ( is_front_page() ) {
-    // This is the blog posts index
-    //echo '<script type="text/javascript">var x = document.getElementsByClassName("cat_menu_container")[0].getElementsByTagName("ul")[0];
-    //x.style.visibility = \'visible\';
-    //x.style.opacity = \'0.9\';
-   //console.log("home");</script>';
-//} else {
-    //echo '<script type="text/javascript">var x = document.getElementsByClassName("cat_menu_container")[0].getElementsByTagName("ul")[0];
-    //x.style.visibility = \'hidden\';
-    //x.style.opacity = \'0\';
-    //console.log("single");</script>';
-    
-//} ?>
+<script src="<?php bloginfo('template_directory');?>/plugins/easing/easing.js"></script>
+
 <?php wp_footer(); ?>
 
 </body>
