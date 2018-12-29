@@ -92,9 +92,9 @@ if (isset($_GET['link'])) {
         map = new google.maps.Map(document.getElementById('map'), {
             center: {lat: 10.788554, lng: 106.678137},
             zoom: 16,
-            zoomControl: false,
+            zoomControl: true,
             fullscreenControl: false,
-            scrollwheel: false,
+            scrollwheel: true,
             styles: [
                 {
                     "elementType": "geometry",

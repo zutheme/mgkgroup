@@ -6,30 +6,18 @@
  *
  * @package mgkgroup
  */
-
+$id_post = get_the_ID();
+$thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($id_post), 'medium', false );
+if(!$thumbnail){
+ //$rand = rand(0,4);
+//$$_thumbnail = no_thumbnail_url."no-thumbnail".$rand.".jpg";
+}else{
+$_thumbnail = $thumbnail[0];
+}
 ?>
+<div class="blog_post">
+    <div class="blog_image" style="background-image:url(<?php echo $_thumbnail; ?>)"></div>
+    <div class="blog_text"><?php the_title(); ?></div>
+    <div class="blog_button"><a href="<?php the_permalink(); ?>">Đọc thêm</a></div>
+  </div>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-
-		<?php if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php
-			mgkgroup_posted_on();
-			mgkgroup_posted_by();
-			?>
-		</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
-
-	<?php mgkgroup_post_thumbnail(); ?>
-
-	<div class="entry-summary">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
-
-	<footer class="entry-footer">
-		<?php mgkgroup_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->

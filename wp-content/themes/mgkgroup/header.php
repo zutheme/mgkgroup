@@ -22,15 +22,15 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/plugins/OwlCarousel2-2.2.1/animate.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/plugins/slick-1.8.0/slick.css">
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/main_styles.css?v=0.0.6">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/responsive.css">
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_single_styles.css?v=0.0.1">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_single_styles.css?v=0.0.2">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_single_responsive.css?v=0.0.1">
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/style-custom.css?v=0.0.8">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/style-custom.css?v=0.0.9">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_styles.css?v=0.0.1">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/blog_responsive.css">
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/contact_styles.css?v=0.0.3">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/contact_styles.css?v=0.0.6">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/contact_responsive.css">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/main_styles.css?v=0.1.0">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<style>
       /* Always set the map height explicitly to define the size of the div
@@ -69,9 +69,8 @@
 									<li>
 										<a href="#">English<i class="fas fa-chevron-down"></i></a>
 										<ul>
-											<li><a href="#">Italian</a></li>
-											<li><a href="#">Spanish</a></li>
-											<li><a href="#">Japanese</a></li>
+											<li><a href="#">Korea</a></li>
+											<li><a href="#">Tiếng việt</a></li>
 										</ul>
 									</li>
 									
@@ -106,8 +105,8 @@
 						<div class="header_search">
 							<div class="header_search_content">
 								<div class="header_search_form_container">
-									<form action="#" class="header_search_form clearfix">
-										<input type="search" required="required" class="header_search_input" placeholder="Tìm kiếm...">
+									<form action="<?php echo home_url( '/' ); ?>" class="header_search_form clearfix">
+										<input type="search" value="<?php echo get_search_query() ?>" name="s" required="required" class="header_search_input" placeholder="Tìm kiếm...">
 										<div class="custom_dropdown">
 											<div class="custom_dropdown_list">
 												<span class="custom_dropdown_placeholder clc">MGK CORPORATION</span>
@@ -132,7 +131,7 @@
 					<div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
 						<div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
 							<div class="wishlist d-flex flex-row align-items-center justify-content-end">
-								<div class="wishlist_icon"><a href="<?php echo esc_url(home_url('/')); ?>lien-he?link=#map"><img src="<?php bloginfo('template_directory');?>/images/heart.png" alt=""></a></div> 
+								<div class="wishlist_icon"><a href="<?php echo esc_url(home_url('/')); ?>lien-he?link=#map"><img src="<?php bloginfo('template_directory');?>/images/vector1.png" alt=""></a></div> 
 								<div class="wishlist_content">
 									<div class="wishlist_text"><a href="<?php echo esc_url(home_url('/')); ?>lien-he?link=#map">Bản đồ</a></div>
 									<div class="wishlist_count"></div>
@@ -143,12 +142,12 @@
 							<div class="cart">
 								<div class="cart_container d-flex flex-row align-items-center justify-content-end">
 									<div class="cart_icon">
-										<img src="<?php bloginfo('template_directory');?>/images/cart.png" alt="">
-										<div class="cart_count"><span></span></div>
+										<img src="<?php bloginfo('template_directory');?>/images/site-map.png" alt="">
+										<!-- <div class="cart_count"><span></span></div> -->
 									</div>
 									<div class="cart_content">
 										<div class="cart_text"><a href="#">Sơ đồ</a></div>
-										<div class="cart_price"></div>
+										<!-- <div class="cart_price"></div> -->
 									</div>
 								</div>
 							</div>
@@ -304,3 +303,4 @@
 		</div>
 
 	</header>
+

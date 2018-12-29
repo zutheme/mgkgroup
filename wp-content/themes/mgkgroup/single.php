@@ -6,7 +6,6 @@
  *
  * @package mgkgroup
  */
-
 get_header();
 ?>
 <!-- Home -->
