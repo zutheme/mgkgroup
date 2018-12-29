@@ -117,21 +117,23 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="<?php bloginfo('template_directory');?>/plugins/slick-1.8.0/slick.js"></script>
 <script src="<?php bloginfo('template_directory');?>/plugins/easing/easing.js"></script>
 <script src="<?php bloginfo('template_directory');?>/js/custom.js"></script>
-<script src="<?php bloginfo('template_directory');?>/js/blog_single_custom.js"></script>
-<script src="<?php bloginfo('template_directory');?>/plugins/parallax-js-master/parallax.min.js"></script>
-<?php if ( is_front_page() ) {
+
+<!-- <script src="<?php //bloginfo('template_directory');?>/js/blog_single_custom.js"></script>
+<script src="<?php //bloginfo('template_directory');?>/plugins/parallax-js-master/parallax.min.js"></script> -->
+<?php 
+//if ( is_front_page() ) {
     // This is the blog posts index
-    echo '<script type="text/javascript">var x = document.getElementsByClassName("cat_menu_container")[0].getElementsByTagName("ul")[0];
-    x.style.visibility = \'visible\';
-    x.style.opacity = \'0.9\';
-   console.log("home");</script>';
-} else {
-    echo '<script type="text/javascript">var x = document.getElementsByClassName("cat_menu_container")[0].getElementsByTagName("ul")[0];
-    x.style.visibility = \'hidden\';
-    x.style.opacity = \'0\';
-    console.log("single");</script>';
+    //echo '<script type="text/javascript">var x = document.getElementsByClassName("cat_menu_container")[0].getElementsByTagName("ul")[0];
+    //x.style.visibility = \'visible\';
+    //x.style.opacity = \'0.9\';
+   //console.log("home");</script>';
+//} else {
+    //echo '<script type="text/javascript">var x = document.getElementsByClassName("cat_menu_container")[0].getElementsByTagName("ul")[0];
+    //x.style.visibility = \'hidden\';
+    //x.style.opacity = \'0\';
+    //console.log("single");</script>';
     
-} ?>
+//} ?>
 <?php wp_footer(); ?>
 
 </body>
