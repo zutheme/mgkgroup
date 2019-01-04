@@ -197,8 +197,11 @@ function the_excerpt_max_charlength($charlength) {
 	}
 }
 function wpdocs_theme_name_scripts() {
+	global $wp;
+	$url = home_url(add_query_arg(array(),$wp->request));
+	echo '<script>console.log('.$url.')</script>';
 	if ( is_front_page() ) {
-     	wp_enqueue_style( 'main_styles', get_template_directory_uri() . '/styles/main_styles.css', array(), '1.0.6', false);
+     	wp_enqueue_style( 'main_styles', get_template_directory_uri() . '/styles/main_styles.css', array(), '1.0.7', false);
      	wp_enqueue_style( 'responsive', get_template_directory_uri() . '/styles/responsive.css', array(), '1.0.1', false );
      	wp_enqueue_script( 'script-name', get_template_directory_uri() . '/plugins/slick-1.8.0/slick.js', array(), '1.0.1', true );
      	wp_enqueue_script( 'custom.js', get_template_directory_uri() . '/js/custom.js', array(), '1.0.0', true );
@@ -217,7 +220,14 @@ function wpdocs_theme_name_scripts() {
      	wp_enqueue_style( 'contact_styles', get_template_directory_uri() . '/styles/contact_styles.css', array(), '1.0.2', false);
      	wp_enqueue_style( 'contact_responsive', get_template_directory_uri() . '/styles/contact_responsive.css', array(), '1.0.2', false );
      	//wp_enqueue_script( 'script-name', get_template_directory_uri() . '/plugins/slick-1.8.0/slick.js', array(), '1.0.0', true );
-     }elseif (is_archive()) {
+     } elseif (is_search()) {
+     	
+     	wp_enqueue_style( 'blog_styles', get_template_directory_uri() . '/styles/blog_styles.css', array(), '1.0.1', false);
+     	wp_enqueue_style( 'blog_responsive', get_template_directory_uri() . '/styles/blog_responsive.css', array(), '1.0.1', false );
+     	wp_enqueue_script( 'parallax.min.js', get_template_directory_uri() . '/plugins/parallax-js-master/parallax.min.js', array(), '1.0.1', true );
+     	wp_enqueue_script( 'blog_custom.js', get_template_directory_uri() . '/js/blog_custom.js', array(), '1.0.1', true );
+     }
+     elseif (is_archive()) {
      	wp_enqueue_style( 'blog_styles', get_template_directory_uri() . '/styles/blog_styles.css', array(), '1.0.0', false);
      	wp_enqueue_style( 'blog_responsive', get_template_directory_uri() . '/styles/blog_responsive.css', array(), '1.0.0', false );
      	wp_enqueue_script( 'parallax.min.js', get_template_directory_uri() . '/plugins/parallax-js-master/parallax.min.js', array(), '1.0.0', true );

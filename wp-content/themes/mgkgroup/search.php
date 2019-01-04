@@ -1,12 +1,11 @@
 <?php
 /**
- * The template for displaying search results pages
+ * Template Name: Search
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
  * @package mgkgroup
  */
-
 get_header();
 ?>
 <div class="home">
