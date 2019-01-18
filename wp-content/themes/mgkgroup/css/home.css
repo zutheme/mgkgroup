@@ -1,0 +1,1539 @@
+.homenews {
+    clear: both;
+    height: 390px;
+    background-color: #D82731;
+    color: #FFF;
+    overflow: hidden;
+}
+
+.homenews-inner {
+    clear: both;
+    margin: 0 auto;
+    width: 980px;
+}
+
+/*tophome*/
+.tophome {
+    clear: both;
+    padding: 0 20px;
+    height: 390px;
+    background: url(images/tophome-bg.png) no-repeat 500px top;
+}
+
+    .tophome h3 {
+        clear: both;
+        float: left;
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+        .tophome h3 a {
+            float: left;
+            font-weight: normal;
+            font-size: 21px;
+            color: #FFF;
+            text-transform: uppercase;
+        }
+
+.tophome-first {
+    float: left;
+    width: 480px;
+}
+
+    .tophome-first div.avatar {
+        clear: both;
+        float: left;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        z-index: 0;
+    }
+
+        .tophome-first div.avatar img {
+            float: left;
+            width: 100%;
+            height: 255px;
+        }
+
+    .tophome-first h4 {
+        position: absolute;
+        z-index: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 42px;
+        padding: 10px 20px;
+        background: url(images/headline-overlay.png) repeat-x left top;
+    }
+
+        .tophome-first h4 a {
+            font-size: 16px;
+            font-weight: bold;
+            color: #FFF;
+            margin-right: 20px;
+        }
+
+    .tophome-first span {
+        font-size: 12px;
+        font-weight: normal;
+        display: inline-block;
+        padding-left: 20px;
+        background: url(images/clock-white.png) no-repeat left center;
+    }
+
+.tophome-other {
+    float: left;
+    width: 460px;
+}
+
+    .tophome-other ul {
+        clear: both;
+        float: left;
+        width: 100%;
+        list-style: none;
+    }
+
+        .tophome-other ul li {
+            float: left;
+            width: 50%;
+        }
+
+            .tophome-other ul li.right {
+                float: right;
+            }
+
+    .tophome-other a.avatar {
+        clear: both;
+        float: left;
+        width: 100%;
+        overflow: hidden;
+    }
+
+        .tophome-other a.avatar img {
+            float: left;
+            width: 100%;
+            height: 130px;
+        }
+
+    .tophome-other a {
+        font-size: 14px;
+        font-weight: normal;
+        color: #FFF;
+    }
+
+    .tophome-other h4 {
+        clear: both;
+        padding: 20px 20px 10px 20px;
+    }
+
+    .tophome-other h5 {
+        padding: 0 20px 10px 20px;
+        color: #FFF;
+        font-weight: normal;
+        font-size: 12px;
+    }
+
+        .tophome-other h5 span {
+            padding-left: 20px;
+            background: url(images/clock-white.png) no-repeat left center;
+        }
+
+    .tophome-other p {
+        margin: 0;
+        padding: 0;
+        color: #FFF;
+        font-size: 12px;
+    }
+
+.tophome-i {
+    clear: both;
+}
+
+/*HOMELINK*/
+.page-link {
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+}
+
+.homelink {
+    clear: both;
+    margin: 0 auto;
+    width: 940px;
+    min-height: 200px;
+    padding: 40px 0;
+}
+
+    .homelink h3 {
+        float: left;
+        width: 100%;
+        clear: both;
+        padding: 20px 0 15px 20px;
+    }
+
+        .homelink h3 a {
+            font-size: 21px;
+            font-weight: normal;
+            text-transform: uppercase;
+            color: #d82731;
+        }
+
+    .homelink a.avatar {
+        clear: both;
+        float: left;
+        width: 100%;
+    }
+
+        .homelink a.avatar img {
+            float: left;
+            width: 100%;
+            height: 150px;
+        }
+
+    .homelink ul {
+        clear: both;
+        float: left;
+        width: 100%;
+        list-style: none;
+    }
+
+        .homelink ul li {
+            clear: both;
+            float: left;
+            width: 100%;
+        }
+
+            .homelink ul li.sep {
+                clear: both;
+                height: 15px;
+                font-size: 1px;
+                background: url(images/dotline.png) repeat-x left center;
+            }
+
+            .homelink ul li a {
+                font-size: 14px;
+                color: #333333;
+            }
+
+            .homelink ul li img {
+                margin-right: 5px;
+                vertical-align: middle;
+            }
+
+.homelink-inner {
+    clear: both;
+}
+
+.homelink-pane1 {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.homelink-pane2 {
+    float: left;
+    width: 300px;
+}
+
+.homelink-pane3 {
+    float: right;
+    width: 300px;
+    background-color: #F2F4F5;
+}
+
+.homelink-cont {
+    clear: both;
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 15px 15px;
+    color: #333333;
+}
+
+    .homelink-cont.dotline ul {
+        background: url(images/dotline.png) repeat-x left top;
+        margin-top: 15px;
+        padding-top: 10px;
+    }
+
+/*LOGOBOX*/
+.page-logo {
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+}
+
+.logobox {
+    clear: both;
+    margin: 0 auto;
+    width: 940px;
+    padding: 0;
+}
+
+    .logobox h1 {
+        clear: both;
+        float: left;
+        width: 100%;
+        background: url(images/line.png) repeat-x left bottom;
+        margin-bottom: 15px;
+    }
+
+        .logobox h1 span {
+            float: left;
+            font-size: 21px;
+            color: #333;
+            font-weight: normal;
+            text-transform: uppercase;
+            padding-bottom: 10px;
+            border-bottom: #D82731 3px solid;
+        }
+
+    .logobox p {
+        padding: 0;
+        margin: 0;
+        clear: both;
+        font-family: 'Times New Roman';
+        font-size: 14px;
+        font-style: italic;
+        line-height: 1.4;
+    }
+
+        .logobox p a {
+            color: #d82731;
+            padding-right: 12px;
+            background: url(images/more-icon.png) no-repeat right center;
+        }
+
+            .logobox p a:hover {
+                text-decoration: underline;
+            }
+
+    .logobox ul {
+        clear: both;
+        position: absolute;
+        z-index: 0;
+        width: 100000px;
+        list-style: none;
+        height: 150px;
+        left: 0;
+        top: 0;
+    }
+
+        .logobox ul li {
+            float: left;
+            width: 175px;
+            height: 150px;
+            margin-right: 15px;
+        }
+
+            .logobox ul li a {
+                float: left;
+                width: 175px;
+                height: 150px;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+
+                .logobox ul li a img {
+                    width: 175px;
+                    height: 150px;
+                    visibility: hidden;
+                }
+
+    .logobox em {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -110px;
+        width: 220px;
+        height: 3px;
+        background: url(images/logo-bar.png) repeat-x center center;
+        z-index: 1;
+    }
+
+.logobox-cont {
+    clear: both;
+    height: 150px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.logobox-inner {
+    clear: both;
+    height: 150px;
+    position: relative;
+    z-index: 0;
+    padding: 0;
+}
+
+    .logobox-inner.line {
+        background: url(images/line.png) repeat-x center top;
+    }
+
+.logo-back {
+    cursor: pointer;
+    left: -30px;
+    top: 50%;
+    margin-top: -12px;
+    position: absolute;
+    width: 14px;
+    height: 24px;
+    background: url(images/logo-back.png) no-repeat center center;
+}
+
+.logo-next {
+    cursor: pointer;
+    right: -30px;
+    top: 50%;
+    margin-top: -12px;
+    position: absolute;
+    width: 14px;
+    height: 24px;
+    background: url(images/logo-next.png) no-repeat center center;
+}
+
+/*HOMEPRODUCT*/
+.page-product {
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+}
+
+.homeproduct {
+    clear: both;
+    margin: 0 auto;
+    width: 940px;
+    padding: 40px 0;
+}
+
+/*SLOGANBOX*/
+.sloganbox {
+    clear: both;
+}
+
+    .sloganbox h1 {
+        clear: both;
+        padding-bottom: 15px;
+    }
+
+        .sloganbox h1 span {
+            font-size: 21px;
+            color: #333;
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+
+    .sloganbox p {
+        padding: 0;
+        margin: 0;
+        clear: both;
+        font-family: 'Times New Roman';
+        font-size: 14px;
+        font-style: italic;
+        line-height: 1.4;
+    }
+
+/*FIELDBOX*/
+.fieldgroupbox {
+    clear: both;
+    height: 36px;
+    margin: 30px 0;
+    position: relative;
+    z-index: 50;
+    background: url(images/fieldbox-bg.png) repeat-x center center;
+}
+
+.fielddropbox {
+    clear: both;
+    height: 36px;
+    display: none;
+    background: url(images/field-active.png) repeat-x center top;
+}
+
+    .fielddropbox .dropdownlist {
+        width: 100%;
+    }
+
+.fieldbox {
+    clear: both;
+    height: 36px;
+    display: block;
+}
+
+    .fieldbox ul {
+        clear: both;
+        position: absolute;
+        z-index: 0;
+        left: 0;
+        top: 0;
+        width: 100000px;
+        float: left;
+        height: 36px;
+        clear: both;
+        list-style: none;
+        overflow: hidden;
+    }
+
+        .fieldbox ul li {
+            float: left;
+            height: 36px;
+        }
+
+            .fieldbox ul li.active, .fieldbox ul li:hover {
+                background: url(images/field-active.png) repeat-x center top;
+            }
+
+            .fieldbox ul li a {
+                float: left;
+                color: #333;
+                font-size: 13px;
+                padding: 0 10px;
+            }
+
+                .fieldbox ul li a img {
+                    height: 24px;
+                    float: left;
+                    margin-right: 5px;
+                    padding: 6px 0;
+                    vertical-align: middle;
+                }
+
+                .fieldbox ul li a span {
+                    float: left;
+                    padding: 10px 0;
+                    white-space: nowrap;
+                }
+
+.fieldbox-i {
+    padding: 0 20px;
+    height: 36px;
+    position: relative;
+}
+
+.fieldbox-cont {
+    position: relative;
+    z-index: 0;
+    height: 36px;
+    overflow: hidden;
+}
+
+.fieldbox-back {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    height: 36px;
+    width: 20px;
+    background: url(images/field-back.png) no-repeat center center;
+    cursor: pointer;
+}
+
+    .fieldbox-back:hover {
+        background-image: url(images/field-back-hover.png);
+    }
+
+.fieldbox-next {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    height: 36px;
+    width: 20px;
+    background: url(images/field-next.png) no-repeat center center;
+    cursor: pointer;
+}
+
+    .fieldbox-next:hover {
+        background-image: url(images/field-next-hover.png);
+    }
+
+/*PRODUCTBOX*/
+.productpager {
+    clear: both;
+    padding-top: 10px;
+    display: none;
+}
+
+.productbox {
+    clear: both;
+    position: relative;
+    z-index: 0;
+}
+
+    .productbox ul {
+        width: 100%;
+        float: left;
+        clear: both;
+        list-style: none;
+    }
+
+        .productbox ul li {
+            float: left;
+            width: 220px;
+            margin-right: 20px;
+        }
+
+            .productbox ul li.nlast {
+                margin-right: 0;
+            }
+
+            .productbox ul li.last {
+                float: right;
+                margin-right: 0;
+            }
+
+            .productbox ul li a.avatar {
+                clear: both;
+                float: left;
+                width: 220px;
+                height: 132px;
+                position: relative;
+                z-index: 0;
+                margin-bottom: 10px;
+            }
+
+                .productbox ul li a.avatar img {
+                    float: left;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .productbox ul li a.avatar span {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    z-index: 0;
+                    padding: 5px 10px;
+                    color: #FFF;
+                    font-size: 12px;
+                    font-weight: normal;
+                    text-transform: uppercase;
+                }
+
+            .productbox ul li h4 {
+                clear: both;
+            }
+
+                .productbox ul li h4 a {
+                    font-size: 14px;
+                    color: #333;
+                    font-weight: normal;
+                }
+
+.product-back {
+    cursor: pointer;
+    left: -30px;
+    top: 56px;
+    position: absolute;
+    width: 14px;
+    height: 24px;
+    background: url(images/logo-back.png) no-repeat center center;
+}
+
+.product-next {
+    cursor: pointer;
+    right: -30px;
+    top: 56px;
+    position: absolute;
+    width: 14px;
+    height: 24px;
+    background: url(images/logo-next.png) no-repeat center center;
+}
+
+/*INTROBOX*/
+.introbox {
+    clear: both;
+    padding: 0;
+}
+
+    .introbox h1 {
+        clear: both;
+        float: left;
+        width: 100%;
+        background: url(images/line.png) repeat-x left bottom;
+        margin-bottom: 15px;
+    }
+
+        .introbox h1 span {
+            float: left;
+            font-size: 21px;
+            color: #333;
+            font-weight: normal;
+            text-transform: uppercase;
+            padding-bottom: 10px;
+            border-bottom: #D82731 3px solid;
+        }
+
+    .introbox p {
+        padding: 0;
+        margin: 0;
+        clear: both;
+        font-family: 'Times New Roman';
+        font-size: 14px;
+        font-style: italic;
+        line-height: 1.4;
+    }
+
+        .introbox p a {
+            color: #d82731;
+            padding-right: 12px;
+            background: url(images/more-icon.png) no-repeat right center;
+        }
+
+            .introbox p a:hover {
+                text-decoration: underline;
+            }
+
+/*PARTNERBOX*/
+.page-partner {
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    background: url(images/partner-bg.jpg) no-repeat left center;
+    height: 320px;
+    border-top: #EEEEEE 5px solid;
+    border-bottom: #EEEEEE 5px solid;
+}
+
+.partnerbox {
+    clear: both;
+    margin: 0 auto;
+    width: 940px;
+    padding: 0;
+}
+
+    .partnerbox h1 {
+        clear: both;
+        float: left;
+        width: 100%;
+        background: url(images/line.png) repeat-x left bottom;
+        padding-top: 40px;
+        margin-bottom: 15px;
+    }
+
+        .partnerbox h1 span {
+            float: left;
+            font-size: 21px;
+            color: #333;
+            font-weight: normal;
+            text-transform: uppercase;
+            padding-bottom: 10px;
+            border-bottom: #D82731 3px solid;
+        }
+
+    .partnerbox p {
+        padding: 0;
+        margin: 0;
+        clear: both;
+        font-family: 'Times New Roman';
+        font-size: 14px;
+        font-style: italic;
+        line-height: 1.4;
+    }
+
+        .partnerbox p a {
+            color: #d82731;
+            padding-right: 12px;
+            background: url(images/more-icon.png) no-repeat right center;
+        }
+
+            .partnerbox p a:hover {
+                text-decoration: underline;
+            }
+
+    .partnerbox ul {
+        clear: both;
+        position: absolute;
+        z-index: 0;
+        width: 100000px;
+        list-style: none;
+        height: 150px;
+        left: 0;
+        top: 0;
+    }
+
+        .partnerbox ul li {
+            float: left;
+            width: 175px;
+            height: 150px;
+            margin-right: 15px;
+        }
+
+            .partnerbox ul li a {
+                float: left;
+                width: 175px;
+                height: 150px;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+
+                .partnerbox ul li a img {
+                    width: 175px;
+                    height: 150px;
+                    visibility: hidden;
+                }
+
+.partnerbox-cont {
+    clear: both;
+    height: 150px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.partnerbox-inner {
+    clear: both;
+    height: 150px;
+    position: relative;
+    z-index: 0;
+    padding: 0;
+}
+
+.partner-back {
+    cursor: pointer;
+    left: -30px;
+    top: 50%;
+    margin-top: -12px;
+    position: absolute;
+    width: 14px;
+    height: 24px;
+    background: url(images/logo-back.png) no-repeat center center;
+}
+
+.partner-next {
+    cursor: pointer;
+    right: -30px;
+    top: 50%;
+    margin-top: -12px;
+    position: absolute;
+    width: 14px;
+    height: 24px;
+    background: url(images/logo-next.png) no-repeat center center;
+}
+
+
+/*LINKBOX*/
+
+.linkbox {
+    clear: both;
+    clear: both;
+    margin: 0 auto;
+    width: 940px;
+    padding: 0 0;
+}
+
+    .linkbox h1 {
+        clear: both;
+        padding-bottom: 15px;
+    }
+
+        .linkbox h1 span {
+            font-size: 21px;
+            color: #333;
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+
+    .linkbox p {
+        padding: 0;
+        margin: 0;
+        clear: both;
+        font-family: 'Times New Roman';
+        font-size: 14px;
+        font-style: italic;
+        line-height: 1.4;
+    }
+
+    .linkbox ul {
+        clear: both;
+        float: left;
+        width: 100%;
+        list-style: none;
+    }
+
+        .linkbox ul li {
+            float: left;
+            width: 220px;
+            margin-right: 20px;
+        }
+
+            .linkbox ul li.last {
+                margin-right: 0;
+            }
+
+            .linkbox ul li a.avatar {
+                clear: both;
+                float: left;
+                width: 100%;
+                height: 132px;
+                position: relative;
+                z-index: 0;
+                margin-bottom: 5px;
+            }
+
+                .linkbox ul li a.avatar > img {
+                    width: 100%;
+                    height: 100%;
+                }
+
+            .linkbox ul li em {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: url(images/develop-mask.png) repeat center center;
+                z-index: 1;
+            }
+
+            .linkbox ul li span {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-position: center center;
+                background-repeat: no-repeat;
+                z-index: 2;
+            }
+
+            .linkbox ul li:hover em {
+                display: block;
+            }
+
+            .linkbox ul li:hover span {
+                display: block;
+            }
+
+            .linkbox ul li:hover a {
+                color: #d82731;
+            }
+
+            .linkbox ul li h4 {
+                clear: both;
+                text-align: center;
+                padding-bottom: 10px;
+            }
+
+                .linkbox ul li h4 a {
+                    clear: both;
+                    font-weight: bold;
+                    font-size: 14px;
+                    color: #333333;
+                }
+
+.linkbox-cont {
+    clear: both;
+    padding: 35px 0;
+}
+
+#homeslider {
+    list-style: none;
+}
+
+
+/*#homeslider {
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+    height: 420px;
+}
+
+    #homeslider img {
+        height: 420px;
+    }*/
+
+/*MEDIA QUERY*/
+@media (min-width:320px) {
+    .homeproduct {
+        clear: both;
+        width: auto;
+        padding: 10px 10px;
+    }
+
+    .productbox ul li {
+        clear: both;
+        width: 100%;
+        margin: 0;
+    }
+
+        .productbox ul li a.avatar {
+            width: 100%;
+            height: auto;
+        }
+
+        .productbox ul li h4 {
+            padding-bottom: 10px;
+        }
+
+    .sloganbox h1 {
+        padding-bottom: 5px;
+    }
+
+    .homenews {
+        clear: both;
+        height: auto;
+    }
+
+    .homenews-inner {
+        width: 100%;
+    }
+
+    .tophome {
+        clear: both;
+        padding: 10px 10px;
+        height: auto;
+        background: none;
+    }
+
+        .tophome h3 {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+    .tophome-first {
+        width: 100%;
+    }
+
+        .tophome-first div.avatar img {
+            width: 100%;
+            height: 230px;
+        }
+
+    .tophome-other {
+        padding-top: 10px;
+        clear: both;
+        width: 100%;
+    }
+
+        .tophome-other ul li {
+            width: 48.5%;
+        }
+
+        .tophome-other a.avatar img {
+            float: left;
+            width: 100%;
+            height: 120px;
+        }
+
+        .tophome-other h4 {
+            clear: both;
+            padding: 10px 10px 10px 10px;
+        }
+
+        .tophome-other h5 {
+            padding: 0 10px 10px 10px;
+            color: #FFF;
+            font-weight: normal;
+            font-size: 12px;
+        }
+
+    .homelink {
+        width: auto;
+        padding: 10px 10px;
+    }
+
+        .homelink h3 {
+            padding: 10px 0 5px 0;
+        }
+
+        .homelink a.avatar img {
+            float: left;
+            width: 100%;
+            height: auto;
+        }
+
+    .homelink-pane1 {
+        float: none;
+        width: auto;
+        margin: 0;
+    }
+
+    .homelink-pane2 {
+        float: none;
+        width: auto;
+        margin: 0;
+    }
+
+    .homelink-pane3 {
+        float: none;
+        width: auto;
+        margin: 0;
+        background-color: transparent;
+    }
+
+    .homelink-cont {
+        padding: 10px 0;
+    }
+
+    .logobox {
+        width: auto;
+        padding: 10px 10px;
+    }
+
+        .logobox h1 {
+            width: 100%;
+            padding-top: 10px;
+            margin-bottom: 10px;
+        }
+
+            .logobox h1 span {
+                width: 100%;
+                padding-bottom: 10px;
+                border-bottom: #D82731 3px solid;
+            }
+
+        .logobox em {
+            left: 0;
+            margin-left: 0;
+            width: 100%;
+        }
+
+    .logobox-inner {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .logo-back {
+        left: 20px;
+    }
+
+    .logo-next {
+        right: 20px;
+    }
+
+    .partnerbox {
+        width: auto;
+        padding: 10px 10px;
+    }
+
+        .partnerbox h1 {
+            width: 100%;
+            padding-top: 10px;
+            margin-bottom: 10px;
+        }
+
+            .partnerbox h1 span {
+                width: 100%;
+                padding-bottom: 10px;
+                border-bottom: #D82731 3px solid;
+            }
+
+    .partnerbox-inner {
+        padding: 10px 30px 0 30px;
+    }
+
+    .partner-back {
+        left: 10px;
+    }
+
+    .partner-next {
+        right: 10px;
+    }
+
+    .introbox {
+        clear: both;
+    }
+
+        .introbox h1 {
+            margin-bottom: 10px;
+        }
+
+            .introbox h1 span {
+                width: 100%;
+                padding-bottom: 10px;
+            }
+
+    .linkbox {
+        width: auto;
+        padding: 10px 10px;
+    }
+
+        .linkbox h1 {
+            clear: both;
+            padding-bottom: 15px;
+        }
+
+        .linkbox ul li {
+            float: left;
+            width: 100%;
+        }
+
+            .linkbox ul li.last {
+                margin-right: 0;
+            }
+
+            .linkbox ul li a.avatar {
+                height: auto;
+            }
+
+    .linkbox-cont {
+        clear: both;
+        padding: 10px 0;
+    }
+
+    .fieldgroupbox {
+        margin: 10px 0;
+    }
+
+    .fielddropbox {
+        display: block;
+    }
+
+    .fieldbox {
+        display: none;
+    }
+
+    .productpager {
+        display: block;
+    }
+
+    /*#homeslider {
+        width: 100%;
+        list-style: none;
+        overflow: hidden;
+        height: 250px;
+    }
+
+        #homeslider img {
+            height: 250px;
+        }*/
+}
+
+@media (min-width:481px) {
+
+    .tophome-first {
+        width: 100%;
+    }
+
+        .tophome-first div.avatar img {
+            width: 100%;
+            height: 250px;
+        }
+
+    .tophome-other {
+        padding-top: 10px;
+        clear: both;
+        width: 100%;
+    }
+
+        .tophome-other ul li {
+            width: 49%;
+        }
+
+        .tophome-other a.avatar img {
+            float: left;
+            width: 100%;
+            height: 150px;
+        }
+
+    /*#homeslider {
+        width: 100%;
+        list-style: none;
+        overflow: hidden;
+        height: 300px;
+    }
+
+        #homeslider img {
+            height: 300px;
+        }*/
+
+}
+
+@media (min-width:641px) {
+
+    .tophome-first {
+        width: 100%;
+    }
+
+        .tophome-first div.avatar img {
+            width: 100%;
+            height: 350px;
+        }
+
+    .tophome-other {
+        padding-top: 10px;
+        clear: both;
+        width: 100%;
+    }
+
+        .tophome-other ul li {
+            width: 49%;
+        }
+
+        .tophome-other a.avatar img {
+            float: left;
+            width: 100%;
+            height: 200px;
+        }
+
+    /*#homeslider {
+        width: 100%;
+        list-style: none;
+        overflow: hidden;
+        height: 350px;
+    }
+
+        #homeslider img {
+            height: 350px;
+        }*/
+
+
+}
+
+@media (min-width:961px) {
+    .homeproduct {
+        width: 940px;
+        padding: 40px 0;
+    }
+
+    .productbox ul li {
+        clear: none;
+        margin: 0;
+        width: 220px;
+        margin-right: 20px;
+    }
+
+        .productbox ul li a.avatar {
+            width: 220px;
+            height: 132px;
+            margin-bottom: 10px;
+        }
+
+        .productbox ul li h4 {
+            padding-bottom: 0;
+        }
+
+    .sloganbox h1 {
+        padding-bottom: 15px;
+    }
+
+    .homenews {
+        clear: both;
+        height: 390px;
+        background-color: #D82731;
+        color: #FFF;
+        overflow: hidden;
+    }
+
+    .homenews-inner {
+        width: 980px;
+    }
+
+    .tophome {
+        clear: both;
+        padding: 0 20px;
+        height: 390px;
+        background: url(images/tophome-bg.png) no-repeat 500px top;
+    }
+
+        .tophome h3 {
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+
+    .tophome-first {
+        width: 480px;
+    }
+
+        .tophome-first div.avatar img {
+            width: 100%;
+            height: 255px;
+        }
+
+    .tophome-other {
+        padding-top: 0;
+        clear: none;
+        width: 460px;
+    }
+
+        .tophome-other ul li {
+            width: 50%;
+        }
+
+        .tophome-other a.avatar img {
+            float: left;
+            width: 100%;
+            height: 130px;
+        }
+
+        .tophome-other h4 {
+            clear: both;
+            padding: 20px 20px 10px 20px;
+        }
+
+        .tophome-other h5 {
+            padding: 0 20px 10px 20px;
+            color: #FFF;
+            font-weight: normal;
+            font-size: 12px;
+        }
+
+    .homelink {
+        width: 940px;
+        padding: 40px 0;
+    }
+
+        .homelink h3 {
+            padding: 20px 0 15px 20px;
+        }
+
+        .homelink a.avatar img {
+            height: 150px;
+        }
+
+    .homelink-pane1 {
+        float: left;
+        width: 300px;
+        margin-right: 20px;
+    }
+
+    .homelink-pane2 {
+        float: left;
+        width: 300px;
+    }
+
+    .homelink-pane3 {
+        float: right;
+        width: 300px;
+        background-color: #F2F4F5;
+    }
+
+    .homelink-cont {
+        padding: 15px 15px;
+    }
+
+    .logobox {
+        padding: 0;
+        width: 940px;
+    }
+
+        .logobox h1 {
+            margin-bottom: 15px;
+        }
+
+            .logobox h1 span {
+                width: auto;
+                padding-bottom: 10px;
+            }
+
+        .logobox em {
+            left: 50%;
+            margin-left: -110px;
+            width: 220px;
+        }
+
+    .logobox-inner {
+        padding: 0;
+    }
+
+    .logo-back {
+        left: -30px;
+    }
+
+    .logo-next {
+        right: -30px;
+    }
+
+    .partnerbox {
+        padding: 0;
+        width: 940px;
+    }
+
+        .partnerbox h1 {
+            padding-top: 40px;
+            margin-bottom: 15px;
+        }
+
+            .partnerbox h1 span {
+                width: auto;
+                padding-bottom: 10px;
+            }
+
+    .partnerbox-inner {
+        padding-top: 20px;
+    }
+
+    .partner-back {
+        left: -30px;
+    }
+
+    .partner-next {
+        right: -30px;
+    }
+
+    .introbox {
+        clear: both;
+        padding: 0;
+    }
+
+        .introbox h1 {
+            margin-bottom: 15px;
+        }
+
+            .introbox h1 span {
+                width: auto;
+                padding-bottom: 10px;
+            }
+
+
+    .linkbox {
+        width: 940px;
+        padding: 0 0;
+    }
+
+        .linkbox h1 {
+            clear: both;
+            padding-bottom: 15px;
+        }
+
+        .linkbox ul li {
+            float: left;
+            width: 220px;
+            margin-right: 20px;
+        }
+
+            .linkbox ul li.last {
+                margin-right: 0;
+            }
+
+            .linkbox ul li a.avatar {
+                height: 132px;
+            }
+
+    .linkbox-cont {
+        clear: both;
+        padding: 35px 0;
+    }
+
+    .fieldgroupbox {
+        margin: 30px 0;
+    }
+
+    .fielddropbox {
+        display: none;
+    }
+
+    .fieldbox {
+        display: block;
+    }
+
+    .productpager {
+        display: none;
+    }
+
+    /*#homeslider {
+        width: 100%;
+        list-style: none;
+        overflow: hidden;
+        height: 420px;
+    }
+
+        #homeslider img {
+            height: 420px;
+        }*/
+}

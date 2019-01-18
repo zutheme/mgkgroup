@@ -13,14 +13,13 @@
  * @package eleaning
  */
 get_header();
-get_template_part('template-parts/banner');
-get_template_part('template-parts/categories');
-//get_template_part('template-parts/character');
-//get_template_part('template-parts/trends');
-//get_template_part('template-parts/adverts');
 get_template_part('template-parts/banner2');
-get_template_part('template-parts/latest');
-get_template_part('template-parts/partner');
+get_template_part('template-parts/brand-slogan');
+get_template_part('template-parts/menu-horizontal');
+get_template_part('template-parts/trends');
+get_template_part('template-parts/news');
+get_template_part('template-parts/about-us');
+get_template_part('template-parts/partner-logo');
 get_template_part('template-parts/newletter');
 get_footer();
 ?>

@@ -17,11 +17,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/styles/bootstrap4/bootstrap.min.css">
-	<link href="<?php bloginfo('template_directory');?>/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+	<link href="<?php bloginfo('template_directory');?>/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css"> 
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/plugins/OwlCarousel2-2.2.1/animate.css">
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/style-custom.css?v=0.0.3">
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/style-custom.css?v=0.0.8">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<style>
       /* Always set the map height explicitly to define the size of the div
@@ -45,111 +45,19 @@
 	<!-- Header -->
 	
 	<header class="header">
-
-		<!-- Top Bar -->
-
-		<div class="top_bar">
-			<div class="container">
-				<div class="row">
-					<div class="col d-flex flex-row">
-						<div class="top_bar_contact_item"><div class="top_bar_icon"><img src="<?php bloginfo('template_directory');?>/images/phone.png" alt=""></div>1900 1768 </div>
-						<div class="top_bar_contact_item"><div class="top_bar_icon"><img src="<?php bloginfo('template_directory');?>/images/mail.png" alt=""></div><a href="mailto:fastsales@gmail.com">contact@mgkgroup.vn</a></div>
-						<div class="top_bar_content ml-auto">
-							<div class="top_bar_menu">
-								<ul class="standard_dropdown top_bar_dropdown">
-									<li>
-										<a href="#">English<i class="fas fa-chevron-down"></i></a>
-										<ul>
-											<li><a href="#">Korea</a></li>
-											<li><a href="#">Tiếng việt</a></li>
-										</ul>
-									</li>
-									
-								</ul>
-							</div>
-							<div class="top_bar_user">
-								<div class="user_icon"><img src="<?php bloginfo('template_directory');?>/images/user.svg" alt=""></div>
-								<div><a href="#">Đăng ký</a></div>
-								<div><a href="#">Đăng nhập</a></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>		
+		<div class="partner">
+			<?php get_template_part('template-parts/partner'); ?>
 		</div>
-
-		<!-- Header Main -->
-
-		<div class="header_main">
+		<div class="top-brand">
 			<div class="container">
 				<div class="row">
-
-					<!-- Logo -->
-					<div class="col-lg-2 col-sm-3 col-3 order-1">
-						<div class="logo_container">
-							<div class="logo"><a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php bloginfo('template_directory');?>/images/Logo_MGK.png" width="100%"></a></div>
-						</div>
-					</div>
-
-					<!-- Search -->
-					<div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
-						<div class="header_search">
-							<div class="header_search_content">
-								<div class="header_search_form_container">
-									<form action="<?php echo home_url( '/' ); ?>" class="header_search_form clearfix">
-										<input type="search" value="<?php echo get_search_query() ?>" name="s" required="required" class="header_search_input" placeholder="Tìm kiếm...">
-										<div class="custom_dropdown">
-											<div class="custom_dropdown_list">
-												<span class="custom_dropdown_placeholder clc">MGK CORPORATION</span>
-												<i class="fas fa-chevron-down"></i>
-												<ul class="custom_list clc">
-													<li><a class="clc" href="#">Tất cả</a></li>
-													<li><a class="clc" href="#">Hệ thống đào tạo</a></li>
-													<li><a class="clc" href="#">Thẩm mỹ viện</a></li>
-													<li><a class="clc" href="#">Hệ thống spa</a></li>
-													<li><a class="clc" href="#">Tư vấn setup spa</a></li>
-												</ul>
-											</div>
-										</div>
-										<button type="submit" class="header_search_button trans_300" value="Submit"><img src="<?php bloginfo('template_directory');?>/images/search.png" alt=""></button>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Wishlist -->
-					<div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
-						<div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
-							<div class="wishlist d-flex flex-row align-items-center justify-content-end">
-								<div class="wishlist_icon"><a href="<?php echo esc_url(home_url('/')); ?>lien-he?link=#map"><img src="<?php bloginfo('template_directory');?>/images/vector1.png" alt=""></a></div> 
-								<div class="wishlist_content">
-									<div class="wishlist_text"><a href="<?php echo esc_url(home_url('/')); ?>lien-he?link=#map">Bản đồ</a></div>
-									<div class="wishlist_count"></div>
-								</div>
-							</div>
-
-							<!-- Cart -->
-							<div class="cart">
-								<div class="cart_container d-flex flex-row align-items-center justify-content-end">
-									<div class="cart_icon">
-										<img src="<?php bloginfo('template_directory');?>/images/site-map.png" alt="">
-										<!-- <div class="cart_count"><span></span></div> -->
-									</div>
-									<div class="cart_content">
-										<div class="cart_text"><a href="#">Sơ đồ</a></div>
-										<!-- <div class="cart_price"></div> -->
-									</div>
-								</div>
-							</div>
-						</div>
+					<div class="col-sm-12">
+						<a href="#"><i class="fa fa-bars" aria-hidden="true"></i>&nbsp;&nbsp;Trang thông tin điện tử của Tập đoàn MGKgroup</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		
 		<!-- Main Navigation -->
-
 		<nav class="main_nav">
 			<div class="container">
 				<div class="row">
@@ -162,33 +70,42 @@
 							<div class="cat_menu_container">
 								<div class="cat_menu_title d-flex flex-row align-items-center justify-content-start">
 									<div class="cat_burger"><span></span><span></span><span></span></div>
-									<div class="cat_menu_text">Trang chủ</div>
+									<div class="cat_menu_text"><a href="#"><img class="logo-mgk" src="<?php bloginfo('template_directory');?>/images/Logo_MGK.png" width="100%"></a></div>
 								</div>
-
-								<ul class="cat_menu">
-									<li><a href="#">MGK Corporation<i class="fas fa-chevron-right ml-auto"></i></a></li>
-									<li><a href="#">Lĩnh vực hoạt động<i class="fas fa-chevron-right"></i></a></li>
-									<li><a href="#">Phát triển bền vững<i class="fas fa-chevron-right"></i></a></li>
-									<li><a href="#">Đối tác<i class="fas fa-chevron-right"></i></a></li>
-									
-								</ul>
-							</div>
-
-							<!-- Main Nav Menu -->
-
-							<div class="main_nav_menu ml-auto">
-								 <?php
+								<?php
 						                wp_nav_menu( array(
 						                    //'theme_location' => 'menu-1',
 						                    'menu'       => 'menu-1',
 						                    'depth'      => 2,
 						                    'container'  => false,
-						                    'menu_class' => 'standard_dropdown main_nav_dropdown',
+						                    'menu_class' => 'cat_menu',
 						                    'walker'     => new wp_bootstrap_navwalker())
 						                );
+						              ?> 
+							</div>
+
+							<!-- Main Nav Menu -->
+							<div class="main_nav_menu ml-auto">
+								<ul class="standard_dropdown main_nav_dropdown">
+									<li><a href="#"><span class="fa fa-sitemap" aria-hidden="true"></span>&nbsp;English</a></li>	
+									<li><a href="#"><span class="fa fa-home" aria-hidden="true"></span>&nbsp;Liên hệ</a></li>
+									<li><a href="#"><span class="fa fa-search" aria-hidden="true"></span>&nbsp;Tìm kiếm</a></li>
+								</ul>
+							</div>
+							<!-- <div class="main_nav_menu ml-auto">
+								 <?php
+								 		//wp_nav_menu( array(
+						                    //'theme_location'    => 'menu-2',
+						                    //'depth'             => 2,
+						                    //'container'         => false,
+						                    //'container_class'   => '',
+						                    //'container_id'      => '',
+						                    //'menu_class'        => 'standard_dropdown main_nav_dropdown',
+						                    //'walker'            => new WP_Bootstrap_Navwalker(),
+						                //) );
 						              ?>   
 								
-							</div>
+							</div> -->
 
 							<!-- Menu Trigger -->
 

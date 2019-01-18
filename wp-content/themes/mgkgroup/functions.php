@@ -46,7 +46,9 @@ if ( ! function_exists( 'mgkgroup_setup' ) ) :
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'mgkgroup' ),
 		) );
-
+		register_nav_menus( array(
+			'menu-2' => esc_html__( 'sub menu', 'mgkgroup' ),
+		) );
 		/*
 		 * Switch default core markup for search form, comment form, and comments
 		 * to output valid HTML5.
@@ -198,23 +200,21 @@ function the_excerpt_max_charlength($charlength) {
 }
 function wpdocs_theme_name_scripts() {
 	global $wp;
-	$url = home_url(add_query_arg(array(),$wp->request));
-	echo '<script>console.log('.$url.')</script>';
 	if ( is_front_page() ) {
-     	wp_enqueue_style( 'main_styles', get_template_directory_uri() . '/styles/main_styles.css', array(), '1.0.7', false);
+     	wp_enqueue_style( 'main_styles', get_template_directory_uri() . '/styles/main_styles.css', array(), '1.1.3', false);
      	wp_enqueue_style( 'responsive', get_template_directory_uri() . '/styles/responsive.css', array(), '1.0.1', false );
      	wp_enqueue_script( 'script-name', get_template_directory_uri() . '/plugins/slick-1.8.0/slick.js', array(), '1.0.1', true );
-     	wp_enqueue_script( 'custom.js', get_template_directory_uri() . '/js/custom.js', array(), '1.0.0', true );
+     	wp_enqueue_script( 'custom.js', get_template_directory_uri() . '/js/custom.js', array(), '1.0.1', true );
      }elseif (is_single()) {
      	wp_enqueue_style( 'blog_single_styles', get_template_directory_uri() . '/styles/blog_single_styles.css', array(), '1.0.1', false);
      	wp_enqueue_style( 'blog_single_responsive', get_template_directory_uri() . '/styles/blog_single_responsive.css', array(), '1.0.0', false);
      	wp_enqueue_script( 'parallax', get_template_directory_uri() . '/plugins/parallax-js-master/parallax.min.js', array(), '1.0.0', true );
-     	wp_enqueue_script( 'blog_single_custom', get_template_directory_uri() . '/js/blog_single_custom.js', array(), '1.0.0', true );
+     	wp_enqueue_script( 'blog_single_custom', get_template_directory_uri() . '/js/blog_single_custom.js', array(), '1.0.1', true );
      }elseif (is_page()&&!is_page_template( 'page-contact.php' )) {
      	wp_enqueue_style( 'blog_single_styles', get_template_directory_uri() . '/styles/blog_single_styles.css', array(), '1.0.1', false);
      	wp_enqueue_style( 'blog_single_responsive', get_template_directory_uri() . '/styles/blog_single_responsive.css', array(), '1.0.0', false);
      	wp_enqueue_script( 'parallax', get_template_directory_uri() . '/plugins/parallax-js-master/parallax.min.js', array(), '1.0.0', true );
-     	wp_enqueue_script( 'blog_single_custom', get_template_directory_uri() . '/js/blog_single_custom.js', array(), '1.0.0', true );
+     	wp_enqueue_script( 'blog_single_custom', get_template_directory_uri() . '/js/blog_single_custom.js', array(), '1.0.1', true );
      }
      elseif (is_page_template( 'page-contact.php' ) ) {
      	wp_enqueue_style( 'contact_styles', get_template_directory_uri() . '/styles/contact_styles.css', array(), '1.0.2', false);
@@ -225,13 +225,13 @@ function wpdocs_theme_name_scripts() {
      	wp_enqueue_style( 'blog_styles', get_template_directory_uri() . '/styles/blog_styles.css', array(), '1.0.1', false);
      	wp_enqueue_style( 'blog_responsive', get_template_directory_uri() . '/styles/blog_responsive.css', array(), '1.0.1', false );
      	wp_enqueue_script( 'parallax.min.js', get_template_directory_uri() . '/plugins/parallax-js-master/parallax.min.js', array(), '1.0.1', true );
-     	wp_enqueue_script( 'blog_custom.js', get_template_directory_uri() . '/js/blog_custom.js', array(), '1.0.1', true );
+     	wp_enqueue_script( 'blog_custom.js', get_template_directory_uri() . '/js/blog_custom.js', array(), '1.0.2', true );
      }
      elseif (is_archive()) {
      	wp_enqueue_style( 'blog_styles', get_template_directory_uri() . '/styles/blog_styles.css', array(), '1.0.0', false);
      	wp_enqueue_style( 'blog_responsive', get_template_directory_uri() . '/styles/blog_responsive.css', array(), '1.0.0', false );
      	wp_enqueue_script( 'parallax.min.js', get_template_directory_uri() . '/plugins/parallax-js-master/parallax.min.js', array(), '1.0.0', true );
-     	wp_enqueue_script( 'blog_custom.js', get_template_directory_uri() . '/js/blog_custom.js', array(), '1.0.0', true );
+     	wp_enqueue_script( 'blog_custom.js', get_template_directory_uri() . '/js/blog_custom.js', array(), '1.0.1', true );
      }
 }
 add_action( 'wp_enqueue_scripts', 'wpdocs_theme_name_scripts' );
